@@ -31,14 +31,14 @@ My_cat::~My_cat() {		//Destructor
 }
 
 My_cat& My_cat::eat(int food_weight) {
-	this->weight += food_weight;
+	weight += food_weight;
 	return *this;
 }
 
 void My_cat::show_status() const {
 	std::cout << " Weight : " << weight << std::endl;
 }
-int main() {
+int main_homework6_1() {
 	My_cat cat1("Nabi");	//Cat 1 »ý¼º
 	cat1.show_status();
 

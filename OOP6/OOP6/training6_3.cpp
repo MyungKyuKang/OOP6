@@ -19,7 +19,7 @@ public:
 	}
 };
 
-int main_training6_3() {
+int main() {
 	Animal cat("Nabi");
 	cat.showName();
 	Animal dog("Jindo");
